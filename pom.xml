@@ -4,7 +4,7 @@
 
   <groupId>com.project</groupId>
   <artifactId>travelsync-dao</artifactId>
-  <version>1.0.3</version>
+  <version>1.0.3.snap</version>
   <packaging>jar</packaging>
 
   <parent>
@@ -83,6 +83,15 @@
       <version>5.0.1</version>
     </dependency>
 
+    <dependency>
+      <groupId>jakarta.persistence</groupId>
+      <artifactId>jakarta.persistence-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+    </dependency>
+
     <!-- Tomcat JDBC connection pool (optional, alternative to HikariCP) -->
     <dependency>
       <groupId>org.apache.tomcat</groupId>
@@ -139,7 +148,7 @@
     <dependency>
       <groupId>com.project</groupId>
       <artifactId>travelsync-object</artifactId>
-      <version>1.0.3</version>
+      <version>1.0.3.snap</version>
     </dependency>
   </dependencies>
 
