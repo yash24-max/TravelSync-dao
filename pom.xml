@@ -4,7 +4,7 @@
 
   <groupId>com.project</groupId>
   <artifactId>travelsync-dao</artifactId>
-  <version>1.0.4</version>
+  <version>1.0.5</version>
   <packaging>jar</packaging>
 
   <parent>
@@ -148,7 +148,7 @@
     <dependency>
       <groupId>com.project</groupId>
       <artifactId>travelsync-object</artifactId>
-      <version>1.0.4</version>
+      <version>1.0.5</version>
     </dependency>
   </dependencies>
 
