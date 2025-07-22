@@ -11,10 +11,10 @@
 
   <groupId>com.project</groupId>
   <artifactId>TravelSyncDao</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.3</version>
   <packaging>jar</packaging>
 
-  <name>TravelSyncDao</name>
+  <name>TravelSync-dao</name>
   <description>Dao</description>
   <url>https://github.com/yash24-max/TravelSync-dao</url>
 
@@ -25,6 +25,7 @@
       <url>https://github.com/yash24-max</url>
     </developer>
   </developers>
+
 
   <distributionManagement>
     <repository>
@@ -51,6 +52,14 @@
     <java.version>21</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
+  <repositories>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/yash24-max/TravelSync-object</url>
+    </repository>
+  </repositories>
 
   <dependencies>
     <dependency>
@@ -103,15 +112,15 @@
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
     </dependency>
+
+    <dependency>
+      <groupId>com.project</groupId>
+      <artifactId>travelsync-object</artifactId>
+      <version>1.0.3</version>
+    </dependency>
   </dependencies>
 
-  <repositories>
-    <repository>
-      <id>github</id>
-      <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/yash24-max/TravelSync-object</url>
-    </repository>
-  </repositories>
+
 
   <build>
     <plugins>
